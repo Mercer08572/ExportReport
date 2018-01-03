@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Data>
+  <main>
+    <scriptcontrol></scriptcontrol>
+    <billno>RCFYSQ201712060005</billno>
+    <memo></memo>
+    <flowstatus>0</flowstatus>
+    <flowstatus_show>未提交</flowstatus_show>
+    <deptid>17</deptid>
+    <deptid_show>湖南区域</deptid_show>
+    <currid></currid>
+    <currid_show></currid_show>
+    <exchangerate>5.00</exchangerate>
+    <compid>19</compid>
+    <compid_show>嘉拓（上海）信息技术有限公司</compid_show>
+    <billdate>2017-12-07 00:00:00.0</billdate>
+    <totalmoney>5.00</totalmoney>
+    <csid></csid>
+    <csid_show></csid_show>
+    <userid>6</userid>
+    <userid_show>张三</userid_show>
+    <billid>5</billid>
+    <ver>180117</ver>
+    <update_date>2017-12-19 17:18:38.33</update_date>
+    <guid>M9qct3Hdih2Uiiw85TWjM0s2iLrJWYBu</guid>
+  </main>
+</Data>

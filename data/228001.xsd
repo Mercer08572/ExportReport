@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified">
+  <element name="main">
+    <complexType>
+      <sequence>
+        <element name="billno" type="string"/>
+        <element name="memo" type="string"/>
+        <element name="create_uid" type="string"/>
+        <element name="create_date" type="string"/>
+        <element name="flowstatus" type="string"/>
+        <element name="deptid" type="string"/>
+        <element name="uid" type="string"/>
+        <element name="currid" type="string"/>
+        <element name="exchangerate" type="string"/>
+        <element name="pz_date" type="string"/>
+        <element name="compid" type="string"/>
+        <element name="billdate" type="string"/>
+        <element name="totalmoney" type="string"/>
+        <element name="isaccvouch" type="string"/>
+        <element name="csid" type="string"/>
+        <element name="userid" type="string"/>
+        <element name="scriptcontrol" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="grid_9999">
+    <complexType>
+      <sequence>
+        <element name="begindate" type="string"/>
+        <element name="approve_date" type="string"/>
+        <element name="username" type="string"/>
+        <element name="stepname" type="string"/>
+        <element name="appopinion" type="string"/>
+        <element name="actionname" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

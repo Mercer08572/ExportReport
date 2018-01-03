@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StiSerializer version="1.02" type="Net" application="StiReport"> 
+  <Dictionary Ref="1" type="Dictionary" isKey="true"> 
+    <BusinessObjects isList="true" count="0"/>  
+    <DataSources isList="true" count="2"> 
+      <grid_9999 Ref="3" type="DataTableSource" isKey="true"> 
+        <Alias>grid_9999</Alias>  
+        <Columns isList="true" count="6"> 
+          <value>begindate,System.String</value>  
+          <value>approve_date,System.String</value>  
+          <value>username,System.String</value>  
+          <value>stepname,System.String</value>  
+          <value>appopinion,System.String</value>  
+          <value>actionname,System.String</value> 
+        </Columns>  
+        <Dictionary isRef="1"/>  
+        <Name>grid_9999</Name>  
+        <NameInSource>data.grid_9999</NameInSource> 
+      </grid_9999>  
+      <main Ref="4" type="DataTableSource" isKey="true"> 
+        <Alias>main</Alias>  
+        <Columns isList="true" count="17"> 
+          <value>billno,System.String</value>  
+          <value>memo,System.String</value>  
+          <value>create_uid,System.String</value>  
+          <value>create_date,System.String</value>  
+          <value>flowstatus,System.String</value>  
+          <value>deptid,System.String</value>  
+          <value>uid,System.String</value>  
+          <value>currid,System.String</value>  
+          <value>exchangerate,System.String</value>  
+          <value>pz_date,System.String</value>  
+          <value>compid,System.String</value>  
+          <value>billdate,System.String</value>  
+          <value>totalmoney,System.String</value>  
+          <value>isaccvouch,System.String</value>  
+          <value>csid,System.String</value>  
+          <value>userid,System.String</value>  
+          <value>scriptcontrol,System.String</value> 
+        </Columns>  
+        <Dictionary isRef="1"/>  
+        <Name>main</Name>  
+        <NameInSource>data.main</NameInSource> 
+      </main> 
+    </DataSources>  
+    <Relations isList="true" count="0"/>  
+    <Report isRef="0"/>  
+    <Resources isList="true" count="0"/>  
+    <Variables isList="true" count="0"/> 
+  </Dictionary>  
+  <EngineVersion>EngineV2</EngineVersion>  
+  <GlobalizationStrings isList="true" count="0"/>  
+  <MetaTags isList="true" count="0"/>  
+  <Pages isList="true" count="1"> 
+    <Page1 Ref="5" type="Page" isKey="true"> 
+      <Border>None;Black;2;Solid;False;4;Black</Border>  
+      <Brush>Transparent</Brush>  
+      <Components isList="true" count="9"> 
+        <Text2 Ref="6" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>0.4,2.4,2.6,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text2</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>编号</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>Expression</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text2>  
+        <Text4 Ref="7" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>12.8,2.4,2.6,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <Guid>af4e28b757cd48deb22686adcf239425</Guid>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text4</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>状态</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>Expression</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text4>  
+        <Text3 Ref="8" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>6.6,2.4,2.6,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <Guid>258132d4cde44284a868473180533b9e</Guid>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text3</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>人员</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>Expression</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text3>  
+        <Text5 Ref="9" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>3.6,2.4,2.2,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text5</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>{main.billno}</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>DataColumn</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text5>  
+        <Text6 Ref="10" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>10,2.4,2.2,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <Guid>db98588675d74ff0b810ee1332adca21</Guid>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text6</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>{main.uid}</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>DataColumn</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text6>  
+        <Text7 Ref="11" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>15.8,2.4,2.2,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <Guid>37d18e06894b47869e20e18307ef64bc</Guid>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text7</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>{main.flowstatus}</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>DataColumn</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text7>  
+        <Text8 Ref="12" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>0.6,4.4,2.2,1</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <Guid>6be2d6418124436396830e709ed30b1d</Guid>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text8</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>备注</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>Expression</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text8>  
+        <Text9 Ref="13" type="Text" isKey="true"> 
+          <Brush>White</Brush>  
+          <ClientRectangle>3.6,4.2,14.2,1.2</ClientRectangle>  
+          <Conditions isList="true" count="0"/>  
+          <Font>宋体,12</Font>  
+          <HorAlignment>Center</HorAlignment>  
+          <Margins>0,0,0,0</Margins>  
+          <Name>Text9</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/>  
+          <Text>{main.memo}</Text>  
+          <TextBrush>Black</TextBrush>  
+          <Type>Expression</Type>  
+          <VertAlignment>Center</VertAlignment> 
+        </Text9>  
+        <ReportTitleBand1 Ref="14" type="ReportTitleBand" isKey="true"> 
+          <Brush>Transparent</Brush>  
+          <ClientRectangle>0,0.4,19,1.8</ClientRectangle>  
+          <Components isList="true" count="1"> 
+            <Text1 Ref="15" type="Text" isKey="true"> 
+              <Brush>White</Brush>  
+              <ClientRectangle>6.6,0.2,4.8,1</ClientRectangle>  
+              <Conditions isList="true" count="0"/>  
+              <Font>宋体,23</Font>  
+              <HorAlignment>Center</HorAlignment>  
+              <Margins>0,0,0,0</Margins>  
+              <Name>Text1</Name>  
+              <Page isRef="5"/>  
+              <Parent isRef="14"/>  
+              <Text>测试报表</Text>  
+              <TextBrush>Black</TextBrush>  
+              <Type>Expression</Type>  
+              <VertAlignment>Center</VertAlignment> 
+            </Text1> 
+          </Components>  
+          <Conditions isList="true" count="0"/>  
+          <Name>ReportTitleBand1</Name>  
+          <Page isRef="5"/>  
+          <Parent isRef="5"/> 
+        </ReportTitleBand1> 
+      </Components>  
+      <Conditions isList="true" count="0"/>  
+      <Guid>88084d38309c45ceb9cb2a0d1f99ed37</Guid>  
+      <Margins>1,1,1,1</Margins>  
+      <Name>Page1</Name>  
+      <PageHeight>29.7</PageHeight>  
+      <PageWidth>21</PageWidth>  
+      <Report isRef="0"/>  
+      <Watermark Ref="16" type="Stimulsoft.Report.Components.StiWatermark" isKey="true"> 
+        <Font>Arial,100</Font>  
+        <TextBrush>[50:0:0:0]</TextBrush> 
+      </Watermark> 
+    </Page1> 
+  </Pages>  
+  <PrinterSettings Ref="17" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true"/>  
+  <ReferencedAssemblies isList="true" count="8"> 
+    <value>System.Dll</value>  
+    <value>System.Drawing.Dll</value>  
+    <value>System.Windows.Forms.Dll</value>  
+    <value>System.Data.Dll</value>  
+    <value>System.Xml.Dll</value>  
+    <value>Stimulsoft.Controls.Dll</value>  
+    <value>Stimulsoft.Base.Dll</value>  
+    <value>Stimulsoft.Report.Dll</value> 
+  </ReferencedAssemblies>  
+  <ReportAlias>Report</ReportAlias>  
+  <ReportChanged>1/3/2018 10:29:44 AM</ReportChanged>  
+  <ReportCreated>1/3/2018 10:03:59 AM</ReportCreated>  
+  <ReportFile/>  
+  <ReportGuid>d190ffc6862f4ecd8a8e9e2396f5ffe0</ReportGuid>  
+  <ReportImage isNull="true"/>  
+  <ReportName>Report</ReportName>  
+  <ReportUnit>Centimeters</ReportUnit>  
+  <ReportVersion>2018.1.4.0</ReportVersion>  
+  <Script>using System; using System.Drawing; using System.Windows.Forms; using System.Data; using Stimulsoft.Controls; using Stimulsoft.Base.Drawing; using Stimulsoft.Report; using Stimulsoft.Report.Dialogs; using Stimulsoft.Report.Components; namespace Reports { public class Report : Stimulsoft.Report.StiReport { public Report() { this.InitializeComponent(); } #region StiReport Designer generated code - do not modify #endregion StiReport Designer generated code - do not modify } }</Script>  
+  <ScriptLanguage>CSharp</ScriptLanguage>  
+  <Styles isList="true" count="0"/>  
+  <Databases isList="true" count="0"/>
+</StiSerializer>
